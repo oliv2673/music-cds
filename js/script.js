@@ -15,12 +15,15 @@ form.addEventListener('submit', (e) => {
     card.querySelector('.subTitle').textContent = title;
     card.querySelector('.subYear').textContent = year;
 
+    //Removes a CD on the list
     card.querySelector("button").addEventListener("click", function () {
         this.parentElement.remove();
     });
 
+    //Puts the template inside the #cds
     cdsCon.appendChild(card);
 
+    //resets the form after submitting
     form.reset();
 
 });
