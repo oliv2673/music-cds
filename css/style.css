@@ -70,7 +70,7 @@ main {
         width: 100%;
 
         #cds {
-            border: 2px solid var(--blue);
+            border: 0.15rem solid var(--blue);
 
             article {
 
